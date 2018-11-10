@@ -1,0 +1,76 @@
+html, body {
+    background-image:url("../images/folk-pattern-black.png");
+    background-size:100%;
+    font-family:monospace;
+}
+
+.container {
+    width:1100px;;
+    height:100%;
+}
+
+p {
+    color:navy;
+    width:100px;
+    word-wrap: break-word;
+}
+
+button {
+    background-color:whitesmoke;
+    text-align:center;
+    margin:5px;
+    border-radius: 10px;
+    padding:5px;
+}
+
+#topics-view {
+    background-color: black;
+    border-radius:15px;
+    height:50px;
+}
+
+#topic-typed {
+    height:40px;
+    writing-mode: horizontal-tb;
+    border-radius:15px;
+}
+
+#add-topic {
+    background-color:whitesmoke;
+    border-radius: 15px;
+    padding:5px;
+    border: solid 3px black;
+}
+
+label {
+    background-color:whitesmoke;
+    border-radius: 15px;
+    padding:5px;
+    border:solid 3px black;
+    height:100%;
+    width:200px;
+    text-align:center;
+}
+
+#gif-pic, #rating {
+    float:left;
+    position:absolute;
+}
+
+img {
+    height:250px;
+    width:250px;
+    border: solid 2px black;
+    border-radius:8px;
+}
+
+
+div1 {
+    display:inline-block;
+    white-space: nowrap;
+    margin:10px;
+}
+
+#topic-form {
+    float:right;
+}
